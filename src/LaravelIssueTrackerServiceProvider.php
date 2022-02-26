@@ -2,9 +2,9 @@
 
 namespace Remeritus\LaravelIssueTracker;
 
+use Remeritus\LaravelIssueTracker\Commands\LaravelIssueTrackerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Remeritus\LaravelIssueTracker\Commands\LaravelIssueTrackerCommand;
 
 class LaravelIssueTrackerServiceProvider extends PackageServiceProvider
 {
