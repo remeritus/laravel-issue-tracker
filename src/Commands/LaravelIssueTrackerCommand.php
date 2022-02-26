@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Remeritus\LaravelIssueTracker\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelIssueTrackerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-issue-tracker';
 
     public $description = 'My command';
 

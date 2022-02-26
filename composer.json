@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "remeritus/laravel-issue-tracker",
+    "description": "Issue Tracker that can be plug into existing Laravel application.",
     "keywords": [
-        ":vendor_name",
+        "remeritus",
         "laravel",
-        ":package_slug"
+        "laravel-issue-tracker"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/remeritus/laravel-issue-tracker",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Richard Sihm",
+            "email": "richard@remerit.us",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Remeritus\\LaravelIssueTracker\\": "src",
+            "Remeritus\\LaravelIssueTracker\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Remeritus\\LaravelIssueTracker\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Remeritus\\LaravelIssueTracker\\LaravelIssueTrackerServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelIssueTracker": "Remeritus\\LaravelIssueTracker\\Facades\\LaravelIssueTracker"
             }
         }
     },
